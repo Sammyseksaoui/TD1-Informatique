@@ -822,3 +822,75 @@ SyntaxError: invalid syntax
 >>> v = 5 
 >>> v // 11
 0
+>>> 149 == 13 * 11 + 6
+True
+>>> 149 == 13 * 11 + 6
+True
+>>> 3 * (10 / 3)
+10.0
+>>> 3 * (10//3)
+9
+>>> (3 * 10)//3
+10
+>>> 3* 10 /3
+10.0
+>>> 3* 10 //3
+10
+>>> 3 *10 //3
+10
+>>> Print ("Oui, le résultat change bel et bien sans parenthéses dû aux priorités d'opérations)
+  File "<stdin>", line 1
+    Print ("Oui, le résultat change bel et bien sans parenthéses dû aux priorités d'opérations)
+    >>> a = 6
+>>> print (type (a) = float)
+  File "<stdin>", line 1
+    print (type (a) = float)
+           ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+>>> print (type (a) == float)
+False
+>>> print (type (a /2) == int)
+False
+>>> 2**256
+115792089237316195423570985008687907853269984665640564039457584007913129639936
+>>> a = "hello world"
+>>> print (a)
+hello world
+>>> print (a)
+hello world
+>>> a
+'hello world'
+>>> print "la valeur de "a" prise est la dernière qui à été enregistrer"
+  File "<stdin>", line 1
+    print "la valeur de "a" prise est la dernière qui à été enregistrer"
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("la valeur de "a" prise est la dernière qui à été enregistrer")?
+>>> print (type (x))
+<class 'int'>
+>>> print (0.2+0.4== 0.6)
+False
+>>> print (0.2+0.4<=0.6)
+False
+>>> print (0.2+0.4>=0.6)
+True
+>>> x = 0.5
+>>> x * 2**30
+536870912.0
+>>> int (536870912.0)
+536870912
+>>> 536870912/+-2**30
+-0.5
+>>> x = 0.1
+>>> x*2**30
+107374182.4
+>>> int (107374182.4)
+107374182
+>>> 107374182/+-2**30
+-0.09999999962747097
+>>> print (" Le nombre flottant 0.1 redonne par valeur approchée la valeur de x")
+ Le nombre flottant 0.1 redonne par valeur approchée la valeur de x
+ >>> a = "hello"
+>>> b = 'world'
+>>> print (a+b)
+helloworld
+
