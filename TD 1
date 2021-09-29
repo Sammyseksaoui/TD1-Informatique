@@ -893,4 +893,5 @@ True
 >>> b = 'world'
 >>> print (a+b)
 helloworld
-
+a * 3 = hello hello hello
+(a+b)*2 = helloworldhelloworld
